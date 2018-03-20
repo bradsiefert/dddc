@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="layout" content="docs"/>
+	<title>Image replacement</title>
+	<meta name="description" content="Swap text for background images with the image replacement class."/>
+	<meta name="group" content="utilities"/>
+	<meta name="toc" content="true"/>
+</head>
+<body>
+
+<p>Utilize the <code>.text-hide</code> class or mixin to help replace an element&#8217;s text content with a background image.</p>
+
+<p>{% highlight html %}</p>
+
+<h1 class="text-hide">Custom heading</h1>
+{% endhighlight %}
+
+<p>{% highlight scss %}
+// Usage as a mixin
+.heading {
+@include text-hide;
+}
+{% endhighlight %}</p>
+
+<p>Use the <code>.text-hide</code> class to maintain the accessibility and SEO benefits of heading tags, but want to utilize a <code>background-image</code> instead of text.</p>
+
+<p>{% example html %}</p>
+
+<h1 class="text-hide" style="background-image: url('fonts//assets/brand/bootstrap-solid.svg'); width: 50px; height: 50px;">Bootstrap</h1>
+{% endexample %}
+
+
+</body>
+</html>
+
