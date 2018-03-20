@@ -2,341 +2,309 @@
 
 @font-face {
     font-family: 'Calibre';
-    src: url('Calibre-Thin.eot');
-    src: local('Calibre Thin'), local('Calibre-Thin'),
-        url('Calibre-Thin.eot?#iefix') format('embedded-opentype'),
-        url('Calibre-Thin.woff2') format('woff2'),
-        url('Calibre-Thin.woff') format('woff'),
-        url('Calibre-Thin.ttf') format('truetype'),
-        url('Calibre-Thin.svg#Calibre-Thin') format('svg');
+    src: url('../fonts/Calibre-Thin.eot'),
+        url('../fonts/Calibre-Thin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Calibre-Thin.woff2') format('woff2'),
+        url('../fonts/Calibre-Thin.woff') format('woff'),
+        url('../fonts/Calibre-Thin.ttf') format('truetype'),
+        url('../fonts/Calibre-Thin.svg#Calibre-Thin') format('svg');
     font-weight: 100;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Calibre';
-    src: url('Calibre-Light.eot');
-    src: local('Calibre Light'), local('Calibre-Light'),
-        url('Calibre-Light.eot?#iefix') format('embedded-opentype'),
-        url('Calibre-Light.woff2') format('woff2'),
-        url('Calibre-Light.woff') format('woff'),
-        url('Calibre-Light.ttf') format('truetype'),
-        url('Calibre-Light.svg#Calibre-Light') format('svg');
+    src: url('../fonts/Calibre-Light.eot'),
+        url('../fonts/Calibre-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Calibre-Light.woff2') format('woff2'),
+        url('../fonts/Calibre-Light.woff') format('woff'),
+        url('../fonts/Calibre-Light.ttf') format('truetype'),
+        url('../fonts/Calibre-Light.svg#Calibre-Light') format('svg');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Calibre';
-    src: url('Calibre-Regular.eot');
-    src: local('Calibre'), local('Calibre-Regular'),
-        url('Calibre-Regular.eot?#iefix') format('embedded-opentype'),
-        url('Calibre-Regular.woff2') format('woff2'),
-        url('Calibre-Regular.woff') format('woff'),
-        url('Calibre-Regular.ttf') format('truetype'),
-        url('Calibre-Regular.svg#Calibre-Regular') format('svg');
-    font-weight: normal;
+    src: url('../fonts/Calibre-Regular.eot')
+        url('../fonts/Calibre-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Calibre-Regular.woff2') format('woff2'),
+        url('../fonts/Calibre-Regular.woff') format('woff'),
+        url('../fonts/Calibre-Regular.ttf') format('truetype'),
+        url('../fonts/Calibre-Regular.svg#Calibre-Regular') format('svg');
+    font-weight: 400;
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Calibre';
-    src: url('Calibre-Medium.eot');
-    src: local('Calibre Medium'), local('Calibre-Medium'),
-        url('Calibre-Medium.eot?#iefix') format('embedded-opentype'),
-        url('Calibre-Medium.woff2') format('woff2'),
-        url('Calibre-Medium.woff') format('woff'),
-        url('Calibre-Medium.ttf') format('truetype'),
-        url('Calibre-Medium.svg#Calibre-Medium') format('svg');
-    font-weight: 500;
-    font-style: normal;
-}
 
 @font-face {
     font-family: 'Calibre';
-    src: url('Calibre-Semibold.eot');
-    src: local('Calibre Semibold'), local('Calibre-Semibold'),
-        url('Calibre-Semibold.eot?#iefix') format('embedded-opentype'),
-        url('Calibre-Semibold.woff2') format('woff2'),
-        url('Calibre-Semibold.woff') format('woff'),
-        url('Calibre-Semibold.ttf') format('truetype'),
-        url('Calibre-Semibold.svg#Calibre-Semibold') format('svg');
+    src: url('../fonts/Calibre-Semibold.eot'),
+        url('../fonts/Calibre-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Calibre-Semibold.woff2') format('woff2'),
+        url('../fonts/Calibre-Semibold.woff') format('woff'),
+        url('../fonts/Calibre-Semibold.ttf') format('truetype'),
+        url('../fonts/Calibre-Semibold.svg#Calibre-Semibold') format('svg');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Calibre';
-    src: url('Calibre-Bold.eot');
-    src: local('Calibre Bold'), local('Calibre-Bold'),
-        url('Calibre-Bold.eot?#iefix') format('embedded-opentype'),
-        url('Calibre-Bold.woff2') format('woff2'),
-        url('Calibre-Bold.woff') format('woff'),
-        url('Calibre-Bold.ttf') format('truetype'),
-        url('Calibre-Bold.svg#Calibre-Bold') format('svg');
-    font-weight: bold;
+    src: url('../fonts/Calibre-Bold.eot'),
+        url('../fonts/Calibre-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Calibre-Bold.woff2') format('woff2'),
+        url('../fonts/Calibre-Bold.woff') format('woff'),
+        url('../fonts/Calibre-Bold.ttf') format('truetype'),
+        url('../fonts/Calibre-Bold.svg#Calibre-Bold') format('svg');
+    font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Calibre';
-    src: url('Calibre-Black.eot');
-    src: local('Calibre Black'), local('Calibre-Black'),
-        url('Calibre-Black.eot?#iefix') format('embedded-opentype'),
-        url('Calibre-Black.woff2') format('woff2'),
-        url('Calibre-Black.woff') format('woff'),
-        url('Calibre-Black.ttf') format('truetype'),
-        url('Calibre-Black.svg#Calibre-Black') format('svg');
+    src: url('../fonts/Calibre-Black.eot'),
+        url('../fonts/Calibre-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Calibre-Black.woff2') format('woff2'),
+        url('../fonts/Calibre-Black.woff') format('woff'),
+        url('../fonts/Calibre-Black.ttf') format('truetype'),
+        url('../fonts/Calibre-Black.svg#Calibre-Black') format('svg');
     font-weight: 900;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Calibre';
-    src: url('Calibre-ThinItalic.eot');
-    src: local('Calibre Thin Italic'), local('Calibre-ThinItalic'),
-        url('Calibre-ThinItalic.eot?#iefix') format('embedded-opentype'),
-        url('Calibre-ThinItalic.woff2') format('woff2'),
-        url('Calibre-ThinItalic.woff') format('woff'),
-        url('Calibre-ThinItalic.ttf') format('truetype'),
-        url('Calibre-ThinItalic.svg#Calibre-ThinItalic') format('svg');
+    src: url('../fonts/Calibre-ThinItalic.eot'),
+        url('../fonts/Calibre-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Calibre-ThinItalic.woff2') format('woff2'),
+        url('../fonts/Calibre-ThinItalic.woff') format('woff'),
+        url('../fonts/Calibre-ThinItalic.ttf') format('truetype'),
+        url('../fonts/Calibre-ThinItalic.svg#Calibre-ThinItalic') format('svg');
     font-weight: 100;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Calibre';
-    src: url('Calibre-LightItalic.eot');
-    src: local('Calibre Light Italic'), local('Calibre-LightItalic'),
-        url('Calibre-LightItalic.eot?#iefix') format('embedded-opentype'),
-        url('Calibre-LightItalic.woff2') format('woff2'),
-        url('Calibre-LightItalic.woff') format('woff'),
-        url('Calibre-LightItalic.ttf') format('truetype'),
-        url('Calibre-LightItalic.svg#Calibre-LightItalic') format('svg');
+    src: url('../fonts/Calibre-LightItalic.eot'),
+        url('../fonts/Calibre-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Calibre-LightItalic.woff2') format('woff2'),
+        url('../fonts/Calibre-LightItalic.woff') format('woff'),
+        url('../fonts/Calibre-LightItalic.ttf') format('truetype'),
+        url('../fonts/Calibre-LightItalic.svg#Calibre-LightItalic') format('svg');
     font-weight: 300;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Calibre';
-    src: url('Calibre-RegularItalic.eot');
-    src: local('Calibre Regular Italic'), local('Calibre-RegularItalic'),
-        url('Calibre-RegularItalic.eot?#iefix') format('embedded-opentype'),
-        url('Calibre-RegularItalic.woff2') format('woff2'),
-        url('Calibre-RegularItalic.woff') format('woff'),
-        url('Calibre-RegularItalic.ttf') format('truetype'),
-        url('Calibre-RegularItalic.svg#Calibre-RegularItalic') format('svg');
-    font-weight: normal;
+    src: url('../fonts/Calibre-RegularItalic.eot'),
+        url('../fonts/Calibre-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Calibre-RegularItalic.woff2') format('woff2'),
+        url('../fonts/Calibre-RegularItalic.woff') format('woff'),
+        url('../fonts/Calibre-RegularItalic.ttf') format('truetype'),
+        url('../fonts/Calibre-RegularItalic.svg#Calibre-RegularItalic') format('svg');
+    font-weight: 400;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Calibre';
-    src: url('Calibre-MediumItalic.eot');
-    src: local('Calibre Medium Italic'), local('Calibre-MediumItalic'),
-        url('Calibre-MediumItalic.eot?#iefix') format('embedded-opentype'),
-        url('Calibre-MediumItalic.woff2') format('woff2'),
-        url('Calibre-MediumItalic.woff') format('woff'),
-        url('Calibre-MediumItalic.ttf') format('truetype'),
-        url('Calibre-MediumItalic.svg#Calibre-MediumItalic') format('svg');
+    src: url('../fonts/Calibre-MediumItalic.eot'),
+        url('../fonts/Calibre-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Calibre-MediumItalic.woff2') format('woff2'),
+        url('../fonts/Calibre-MediumItalic.woff') format('woff'),
+        url('../fonts/Calibre-MediumItalic.ttf') format('truetype'),
+        url('../fonts/Calibre-MediumItalic.svg#Calibre-MediumItalic') format('svg');
     font-weight: 500;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Calibre';
-    src: url('Calibre-SemiboldItalic.eot');
-    src: local('Calibre Semibold Italic'), local('Calibre-SemiboldItalic'),
-        url('Calibre-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
-        url('Calibre-SemiboldItalic.woff2') format('woff2'),
-        url('Calibre-SemiboldItalic.woff') format('woff'),
-        url('Calibre-SemiboldItalic.ttf') format('truetype'),
-        url('Calibre-SemiboldItalic.svg#Calibre-SemiboldItalic') format('svg');
+    src: url('../fonts/Calibre-SemiboldItalic.eot'),
+        url('../fonts/Calibre-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Calibre-SemiboldItalic.woff2') format('woff2'),
+        url('../fonts/Calibre-SemiboldItalic.woff') format('woff'),
+        url('../fonts/Calibre-SemiboldItalic.ttf') format('truetype'),
+        url('../fonts/Calibre-SemiboldItalic.svg#Calibre-SemiboldItalic') format('svg');
     font-weight: 600;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Calibre';
-    src: url('Calibre-BoldItalic.eot');
-    src: local('Calibre Bold Italic'), local('Calibre-BoldItalic'),
-        url('Calibre-BoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('Calibre-BoldItalic.woff2') format('woff2'),
-        url('Calibre-BoldItalic.woff') format('woff'),
-        url('Calibre-BoldItalic.ttf') format('truetype'),
-        url('Calibre-BoldItalic.svg#Calibre-BoldItalic') format('svg');
-    font-weight: bold;
+    src: url('../fonts/Calibre-BoldItalic.eot'),
+        url('../fonts/Calibre-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Calibre-BoldItalic.woff2') format('woff2'),
+        url('../fonts/Calibre-BoldItalic.woff') format('woff'),
+        url('../fonts/Calibre-BoldItalic.ttf') format('truetype'),
+        url('../fonts/Calibre-BoldItalic.svg#Calibre-BoldItalic') format('svg');
+    font-weight: 700;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Calibre';
-    src: url('Calibre-BlackItalic.eot');
-    src: local('Calibre Black Italic'), local('Calibre-BlackItalic'),
-        url('Calibre-BlackItalic.eot?#iefix') format('embedded-opentype'),
-        url('Calibre-BlackItalic.woff2') format('woff2'),
-        url('Calibre-BlackItalic.woff') format('woff'),
-        url('Calibre-BlackItalic.ttf') format('truetype'),
-        url('Calibre-BlackItalic.svg#Calibre-BlackItalic') format('svg');
+    src: url('../fonts/Calibre-BlackItalic.eot'),
+        url('../fonts/Calibre-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Calibre-BlackItalic.woff2') format('woff2'),
+        url('../fonts/Calibre-BlackItalic.woff') format('woff'),
+        url('../fonts/Calibre-BlackItalic.ttf') format('truetype'),
+        url('../fonts/Calibre-BlackItalic.svg#Calibre-BlackItalic') format('svg');
     font-weight: 900;
     font-style: italic;
 }
 
-/* This stylesheet generated by Transfonter (https://transfonter.org) on March 20, 2018 1:52 AM */
-
 @font-face {
     font-family: 'Tiempos Headline';
-    src: url('TiemposHeadline-Light.eot');
-    src: local('Tiempos Headline Light'), local('TiemposHeadline-Light'),
-        url('TiemposHeadline-Light.eot?#iefix') format('embedded-opentype'),
-        url('TiemposHeadline-Light.woff2') format('woff2'),
-        url('TiemposHeadline-Light.woff') format('woff'),
-        url('TiemposHeadline-Light.ttf') format('truetype'),
-        url('TiemposHeadline-Light.svg#TiemposHeadline-Light') format('svg');
+    src: url('../fonts/TiemposHeadline-Light.eot'),
+        url('../fonts/TiemposHeadline-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TiemposHeadline-Light.woff2') format('woff2'),
+        url('../fonts/TiemposHeadline-Light.woff') format('woff'),
+        url('../fonts/TiemposHeadline-Light.ttf') format('truetype'),
+        url('../fonts/TiemposHeadline-Light.svg#TiemposHeadline-Light') format('svg');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Tiempos Headline';
-    src: url('TiemposHeadline-Regular.eot');
-    src: local('Tiempos Headline Regular'), local('TiemposHeadline-Regular'),
-        url('TiemposHeadline-Regular.eot?#iefix') format('embedded-opentype'),
-        url('TiemposHeadline-Regular.woff2') format('woff2'),
-        url('TiemposHeadline-Regular.woff') format('woff'),
-        url('TiemposHeadline-Regular.ttf') format('truetype'),
-        url('TiemposHeadline-Regular.svg#TiemposHeadline-Regular') format('svg');
+    src: url('../fonts/TiemposHeadline-Regular.eot'),
+        url('../fonts/TiemposHeadline-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TiemposHeadline-Regular.woff2') format('woff2'),
+        url('../fonts/TiemposHeadline-Regular.woff') format('woff'),
+        url('../fonts/TiemposHeadline-Regular.ttf') format('truetype'),
+        url('../fonts/TiemposHeadline-Regular.svg#TiemposHeadline-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+// @font-face {
+//     font-family: 'Tiempos Headline';
+//     src: url('../fonts/TiemposHeadline-Medium.eot');
+//     src: local('Tiempos Headline Medium'), local('TiemposHeadline-Medium'),
+//         url('../fonts/TiemposHeadline-Medium.eot?#iefix') format('embedded-opentype'),
+//         url('../fonts/TiemposHeadline-Medium.woff2') format('woff2'),
+//         url('../fonts/TiemposHeadline-Medium.woff') format('woff'),
+//         url('../fonts/TiemposHeadline-Medium.ttf') format('truetype'),
+//         url('../fonts/TiemposHeadline-Medium.svg#TiemposHeadline-Medium') format('svg');
+//     font-weight: 500;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: 'Tiempos Headline';
+//     src: url('../fonts/TiemposHeadline-Semibold.eot');
+//     src: local('Tiempos Headline Semibold'), local('TiemposHeadline-Semibold'),
+//         url('../fonts/TiemposHeadline-Semibold.eot?#iefix') format('embedded-opentype'),
+//         url('../fonts/TiemposHeadline-Semibold.woff2') format('woff2'),
+//         url('../fonts/TiemposHeadline-Semibold.woff') format('woff'),
+//         url('../fonts/TiemposHeadline-Semibold.ttf') format('truetype'),
+//         url('../fonts/TiemposHeadline-Semibold.svg#TiemposHeadline-Semibold') format('svg');
+//     font-weight: 600;
+//     font-style: normal;
+// }
+
+@font-face {
+    font-family: 'Tiempos Headline';
+    src: url('../fonts/TiemposHeadline-Bold.eot'),
+        url('../fonts/TiemposHeadline-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TiemposHeadline-Bold.woff2') format('woff2'),
+        url('../fonts/TiemposHeadline-Bold.woff') format('woff'),
+        url('../fonts/TiemposHeadline-Bold.ttf') format('truetype'),
+        url('../fonts/TiemposHeadline-Bold.svg#TiemposHeadline-Bold') format('svg');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Tiempos Headline';
-    src: url('TiemposHeadline-Medium.eot');
-    src: local('Tiempos Headline Medium'), local('TiemposHeadline-Medium'),
-        url('TiemposHeadline-Medium.eot?#iefix') format('embedded-opentype'),
-        url('TiemposHeadline-Medium.woff2') format('woff2'),
-        url('TiemposHeadline-Medium.woff') format('woff'),
-        url('TiemposHeadline-Medium.ttf') format('truetype'),
-        url('TiemposHeadline-Medium.svg#TiemposHeadline-Medium') format('svg');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Tiempos Headline';
-    src: url('TiemposHeadline-Semibold.eot');
-    src: local('Tiempos Headline Semibold'), local('TiemposHeadline-Semibold'),
-        url('TiemposHeadline-Semibold.eot?#iefix') format('embedded-opentype'),
-        url('TiemposHeadline-Semibold.woff2') format('woff2'),
-        url('TiemposHeadline-Semibold.woff') format('woff'),
-        url('TiemposHeadline-Semibold.ttf') format('truetype'),
-        url('TiemposHeadline-Semibold.svg#TiemposHeadline-Semibold') format('svg');
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Tiempos Headline';
-    src: url('TiemposHeadline-Bold.eot');
-    src: local('Tiempos Headline Bold'), local('TiemposHeadline-Bold'),
-        url('TiemposHeadline-Bold.eot?#iefix') format('embedded-opentype'),
-        url('TiemposHeadline-Bold.woff2') format('woff2'),
-        url('TiemposHeadline-Bold.woff') format('woff'),
-        url('TiemposHeadline-Bold.ttf') format('truetype'),
-        url('TiemposHeadline-Bold.svg#TiemposHeadline-Bold') format('svg');
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Tiempos Headline';
-    src: url('TiemposHeadline-Black.eot');
-    src: local('Tiempos Headline Black'), local('TiemposHeadline-Black'),
-        url('TiemposHeadline-Black.eot?#iefix') format('embedded-opentype'),
-        url('TiemposHeadline-Black.woff2') format('woff2'),
-        url('TiemposHeadline-Black.woff') format('woff'),
-        url('TiemposHeadline-Black.ttf') format('truetype'),
-        url('TiemposHeadline-Black.svg#TiemposHeadline-Black') format('svg');
+    src: url('../fonts/TiemposHeadline-Black.eot'),
+        url('../fonts/TiemposHeadline-Black.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TiemposHeadline-Black.woff2') format('woff2'),
+        url('../fonts/TiemposHeadline-Black.woff') format('woff'),
+        url('../fonts/TiemposHeadline-Black.ttf') format('truetype'),
+        url('../fonts/TiemposHeadline-Black.svg#TiemposHeadline-Black') format('svg');
     font-weight: 900;
     font-style: normal;
 }
 
-
 @font-face {
     font-family: 'Tiempos Headline';
-    src: url('TiemposHeadline-LightItalic.eot');
+    src: url('../fonts/TiemposHeadline-LightItalic.eot');
     src: local('Tiempos Headline Light Italic'), local('TiemposHeadline-LightItalic'),
-        url('TiemposHeadline-LightItalic.eot?#iefix') format('embedded-opentype'),
-        url('TiemposHeadline-LightItalic.woff2') format('woff2'),
-        url('TiemposHeadline-LightItalic.woff') format('woff'),
-        url('TiemposHeadline-LightItalic.ttf') format('truetype'),
-        url('TiemposHeadline-LightItalic.svg#TiemposHeadline-LightItalic') format('svg');
+        url('../fonts/TiemposHeadline-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TiemposHeadline-LightItalic.woff2') format('woff2'),
+        url('../fonts/TiemposHeadline-LightItalic.woff') format('woff'),
+        url('../fonts/TiemposHeadline-LightItalic.ttf') format('truetype'),
+        url('../fonts/TiemposHeadline-LightItalic.svg#TiemposHeadline-LightItalic') format('svg');
     font-weight: 300;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Tiempos Headline';
-    src: url('TiemposHeadline-RegularItalic.eot');
+    src: url('../fonts/TiemposHeadline-RegularItalic.eot');
     src: local('Tiempos Headline Regular Italic'), local('TiemposHeadline-RegularItalic'),
-        url('TiemposHeadline-RegularItalic.eot?#iefix') format('embedded-opentype'),
-        url('TiemposHeadline-RegularItalic.woff2') format('woff2'),
-        url('TiemposHeadline-RegularItalic.woff') format('woff'),
-        url('TiemposHeadline-RegularItalic.ttf') format('truetype'),
-        url('TiemposHeadline-RegularItalic.svg#TiemposHeadline-RegularItalic') format('svg');
-    font-weight: 600;
+        url('../fonts/TiemposHeadline-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TiemposHeadline-RegularItalic.woff2') format('woff2'),
+        url('../fonts/TiemposHeadline-RegularItalic.woff') format('woff'),
+        url('../fonts/TiemposHeadline-RegularItalic.ttf') format('truetype'),
+        url('../fonts/TiemposHeadline-RegularItalic.svg#TiemposHeadline-RegularItalic') format('svg');
+    font-weight: 400;
     font-style: italic;
 }
 
-@font-face {
-    font-family: 'Tiempos Headline';
-    src: url('TiemposHeadline-MediumItalic.eot');
-    src: local('Tiempos Headline Medium Italic'), local('TiemposHeadline-MediumItalic'),
-        url('TiemposHeadline-MediumItalic.eot?#iefix') format('embedded-opentype'),
-        url('TiemposHeadline-MediumItalic.woff2') format('woff2'),
-        url('TiemposHeadline-MediumItalic.woff') format('woff'),
-        url('TiemposHeadline-MediumItalic.ttf') format('truetype'),
-        url('TiemposHeadline-MediumItalic.svg#TiemposHeadline-MediumItalic') format('svg');
-    font-weight: 500;
-    font-style: italic;
-}
+// @font-face {
+//     font-family: 'Tiempos Headline';
+//     src: url('../fonts/TiemposHeadline-MediumItalic.eot');
+//     src: local('Tiempos Headline Medium Italic'), local('TiemposHeadline-MediumItalic'),
+//         url('../fonts/TiemposHeadline-MediumItalic.eot?#iefix') format('embedded-opentype'),
+//         url('../fonts/TiemposHeadline-MediumItalic.woff2') format('woff2'),
+//         url('../fonts/TiemposHeadline-MediumItalic.woff') format('woff'),
+//         url('../fonts/TiemposHeadline-MediumItalic.ttf') format('truetype'),
+//         url('../fonts/TiemposHeadline-MediumItalic.svg#TiemposHeadline-MediumItalic') format('svg');
+//     font-weight: 500;
+//     font-style: italic;
+// }
+
+// @font-face {
+//     font-family: 'Tiempos Headline';
+//     src: url('../fonts/TiemposHeadline-SemiboldItalic.eot');
+//     src: local('Tiempos Headline Semibold Italic'), local('TiemposHeadline-SemiboldItalic'),
+//         url('../fonts/TiemposHeadline-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+//         url('../fonts/TiemposHeadline-SemiboldItalic.woff2') format('woff2'),
+//         url('../fonts/TiemposHeadline-SemiboldItalic.woff') format('woff'),
+//         url('../fonts/TiemposHeadline-SemiboldItalic.ttf') format('truetype'),
+//         url('../fonts/TiemposHeadline-SemiboldItalic.svg#TiemposHeadline-SemiboldItalic') format('svg');
+//     font-weight: 600;
+//     font-style: italic;
+// }
 
 @font-face {
     font-family: 'Tiempos Headline';
-    src: url('TiemposHeadline-SemiboldItalic.eot');
-    src: local('Tiempos Headline Semibold Italic'), local('TiemposHeadline-SemiboldItalic'),
-        url('TiemposHeadline-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
-        url('TiemposHeadline-SemiboldItalic.woff2') format('woff2'),
-        url('TiemposHeadline-SemiboldItalic.woff') format('woff'),
-        url('TiemposHeadline-SemiboldItalic.ttf') format('truetype'),
-        url('TiemposHeadline-SemiboldItalic.svg#TiemposHeadline-SemiboldItalic') format('svg');
-    font-weight: 600;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Tiempos Headline';
-    src: url('TiemposHeadline-BoldItalic.eot');
+    src: url('../fonts/TiemposHeadline-BoldItalic.eot');
     src: local('Tiempos Headline Bold Italic'), local('TiemposHeadline-BoldItalic'),
-        url('TiemposHeadline-BoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('TiemposHeadline-BoldItalic.woff2') format('woff2'),
-        url('TiemposHeadline-BoldItalic.woff') format('woff'),
-        url('TiemposHeadline-BoldItalic.ttf') format('truetype'),
-        url('TiemposHeadline-BoldItalic.svg#TiemposHeadline-BoldItalic') format('svg');
+        url('../fonts/TiemposHeadline-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TiemposHeadline-BoldItalic.woff2') format('woff2'),
+        url('../fonts/TiemposHeadline-BoldItalic.woff') format('woff'),
+        url('../fonts/TiemposHeadline-BoldItalic.ttf') format('truetype'),
+        url('../fonts/TiemposHeadline-BoldItalic.svg#TiemposHeadline-BoldItalic') format('svg');
     font-weight: 600;
     font-style: italic;
 }
 
 @font-face {
     font-family: 'Tiempos Headline';
-    src: url('TiemposHeadline-BlackItalic.eot');
+    src: url('../fonts/TiemposHeadline-BlackItalic.eot');
     src: local('Tiempos Headline Black Italic'), local('TiemposHeadline-BlackItalic'),
-        url('TiemposHeadline-BlackItalic.eot?#iefix') format('embedded-opentype'),
-        url('TiemposHeadline-BlackItalic.woff2') format('woff2'),
-        url('TiemposHeadline-BlackItalic.woff') format('woff'),
-        url('TiemposHeadline-BlackItalic.ttf') format('truetype'),
-        url('TiemposHeadline-BlackItalic.svg#TiemposHeadline-BlackItalic') format('svg');
-    font-weight: 600;
+        url('../fonts/TiemposHeadline-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/TiemposHeadline-BlackItalic.woff2') format('woff2'),
+        url('../fonts/TiemposHeadline-BlackItalic.woff') format('woff'),
+        url('../fonts/TiemposHeadline-BlackItalic.ttf') format('truetype'),
+        url('../fonts/TiemposHeadline-BlackItalic.svg#TiemposHeadline-BlackItalic') format('svg');
+    font-weight: 900;
     font-style: italic;
 }

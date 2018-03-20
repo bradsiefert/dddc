@@ -86,7 +86,6 @@
 
 .masthead-followup .bd-clipboard {
   display: none; }
-
 .masthead-followup .highlight {
   padding: .5rem 0;
   background-color: transparent; }
@@ -171,14 +170,11 @@
 
 .bd-content > h2:not(:first-child) {
   margin-top: 3rem; }
-
 .bd-content > h3 {
   margin-top: 1.5rem; }
-
 .bd-content > ul li,
 .bd-content > ol li {
   margin-bottom: .25rem; }
-
 @media (min-width: 992px) {
   .bd-content > ul,
   .bd-content > ol,
@@ -361,10 +357,8 @@
   padding-bottom: .75rem;
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2); }
-
 .bd-example-row .row + .row {
   margin-top: 1rem; }
-
 .bd-example-row .flex-items-top,
 .bd-example-row .flex-items-middle,
 .bd-example-row .flex-items-bottom {
@@ -405,8 +399,8 @@
       max-width: 50%; } }
   @media (min-width: 992px) {
     .example-content-main {
-      flex: 0 0 66.6666666667%;
-      max-width: 66.6666666667%; } }
+      flex: 0 0 66.66667%;
+      max-width: 66.66667%; } }
 
 .example-content-secondary {
   position: relative;
@@ -420,8 +414,8 @@
       max-width: 50%; } }
   @media (min-width: 992px) {
     .example-content-secondary {
-      flex: 0 0 33.3333333333%;
-      max-width: 33.3333333333%; } }
+      flex: 0 0 33.33333%;
+      max-width: 33.33333%; } }
 
 .bd-example-container {
   min-width: 16rem;
@@ -499,14 +493,11 @@
 .bd-example-type .table .type-info {
   color: #999;
   vertical-align: middle; }
-
 .bd-example-type .table td {
   padding: 1rem 0;
   border-color: #eee; }
-
 .bd-example-type .table tr:first-child td {
   border-top: 0; }
-
 .bd-example-type h1,
 .bd-example-type h2,
 .bd-example-type h3,
@@ -525,7 +516,6 @@
 .bd-example > .btn-group {
   margin-top: .25rem;
   margin-bottom: .25rem; }
-
 .bd-example > .btn-toolbar + .btn-toolbar {
   margin-top: .5rem; }
 
@@ -546,11 +536,9 @@
 .bd-example .sticky-top {
   position: static;
   margin: -1rem -1rem 1rem; }
-
 .bd-example .fixed-bottom {
   position: static;
   margin: 1rem -1rem -1rem; }
-
 @media (min-width: 576px) {
   .bd-example .fixed-top,
   .bd-example .sticky-top {
@@ -653,7 +641,6 @@
   margin-bottom: 0;
   background-color: transparent;
   border: 0; }
-
 .highlight pre code {
   font-size: inherit;
   color: #212529; }
@@ -725,13 +712,12 @@
   .bd-examples {
     margin-right: -.75rem;
     margin-left: -.75rem; }
+
   .bd-examples > [class^="col-"] {
     padding-right: .75rem;
     padding-left: .75rem; } }
-
 .bd-browser-bugs td p {
   margin-bottom: 0; }
-
 .bd-browser-bugs th:first-child {
   width: 18%; }
 
@@ -768,12 +754,13 @@
   .bd-brand-item {
     display: table-cell;
     width: 1%; }
+
   .bd-brand-item + .bd-brand-item {
     border-top: 0;
     border-left: 1px solid #fff; }
+
   .bd-brand-item h1 {
     font-size: 4rem; } }
-
 .color-swatches {
   margin: 0 -5px;
   overflow: hidden; }
@@ -792,34 +779,31 @@
 
 .color-swatches .bd-purple {
   background-color: #563d7c; }
-
 .color-swatches .bd-purple-light {
   background-color: #cbbde2; }
-
 .color-swatches .bd-purple-lighter {
   background-color: #e5e1ea; }
-
 .color-swatches .bd-gray {
   background-color: #f9f9f9; }
 
 .swatch-blue {
-  color: #fff;
+  color: white;
   background-color: #007bff; }
 
 .swatch-indigo {
-  color: #fff;
+  color: white;
   background-color: #6610f2; }
 
 .swatch-purple {
-  color: #fff;
+  color: white;
   background-color: #6f42c1; }
 
 .swatch-pink {
-  color: #fff;
+  color: white;
   background-color: #e83e8c; }
 
 .swatch-red {
-  color: #fff;
+  color: white;
   background-color: #dc3545; }
 
 .swatch-orange {
@@ -831,43 +815,43 @@
   background-color: #ffc107; }
 
 .swatch-green {
-  color: #fff;
+  color: white;
   background-color: #28a745; }
 
 .swatch-teal {
-  color: #fff;
+  color: white;
   background-color: #20c997; }
 
 .swatch-cyan {
-  color: #fff;
+  color: white;
   background-color: #17a2b8; }
 
 .swatch-white {
   color: #212529;
-  background-color: #fff; }
+  background-color: white; }
 
 .swatch-gray {
-  color: #fff;
+  color: white;
   background-color: #6c757d; }
 
 .swatch-gray-dark {
-  color: #fff;
+  color: white;
   background-color: #343a40; }
 
 .swatch-primary {
-  color: #fff;
+  color: white;
   background-color: #007bff; }
 
 .swatch-secondary {
-  color: #fff;
+  color: white;
   background-color: #6c757d; }
 
 .swatch-success {
-  color: #fff;
+  color: white;
   background-color: #28a745; }
 
 .swatch-info {
-  color: #fff;
+  color: white;
   background-color: #17a2b8; }
 
 .swatch-warning {
@@ -875,7 +859,7 @@
   background-color: #ffc107; }
 
 .swatch-danger {
-  color: #fff;
+  color: white;
   background-color: #dc3545; }
 
 .swatch-light {
@@ -883,7 +867,7 @@
   background-color: #f8f9fa; }
 
 .swatch-dark {
-  color: #fff;
+  color: white;
   background-color: #343a40; }
 
 .swatch-100 {
@@ -907,19 +891,19 @@
   background-color: #adb5bd; }
 
 .swatch-600 {
-  color: #fff;
+  color: white;
   background-color: #6c757d; }
 
 .swatch-700 {
-  color: #fff;
+  color: white;
   background-color: #495057; }
 
 .swatch-800 {
-  color: #fff;
+  color: white;
   background-color: #343a40; }
 
 .swatch-900 {
-  color: #fff;
+  color: white;
   background-color: #212529; }
 
 .bd-clipboard {
@@ -949,7 +933,6 @@
 @media (min-width: 768px) {
   .bd-clipboard {
     display: block; } }
-
 .hll {
   background-color: #ffc; }
 
