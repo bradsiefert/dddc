@@ -1,9 +1,19 @@
-/* ---------- Customizin Bootstrap 4 Variables --------- */
+/* ---------- Bradstrap Tweaks --------- */
+$grid-gutter-width:     32px !default;
+$container-max-widths:  (sm: 544px, md: 736px, lg: 960px, xl: 1168px) !default;
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: map-merge((
+  0: 0,
+  1: ($spacer * .25), 2: ($spacer * .5),   3: ($spacer * 1),  4: ($spacer * 1.5),
+  5: ($spacer * 2),   6: ($spacer * 2.5),  7: ($spacer * 3),  8: ($spacer * 3.5),
+  9: ($spacer * 4),  10: ($spacer * 4.5), 11: ($spacer * 5), 12: ($spacer * 6)
+), $spacers);
+
+/* ---------- Customizin' Bootstrap 4 Variables --------- */
 $white: #fff;
 $blue: #4EA1D3;
 $red: #EC4964;
-$grid-gutter-width:     32px !default;
-$container-max-widths:  (sm: 544px, md: 736px, lg: 960px, xl: 1168px) !default;
 $link-color:                        #4EA1D3;
 $btn-border-radius:                 4px !default;
 $btn-border-radius-lg:              8px !default;
@@ -137,6 +147,8 @@ h2 {
     min-height: 400px;
     padding-top: 48px;
     padding-bottom: 48px;
+    position: relative;
+    margin-bottom: 128px;
 }
 
 dl,
@@ -167,10 +179,14 @@ dt {
     line-height: 24px;
 }
 
-.media-body {
-    margin-top: 24px;
-}
-
 .media img {
     max-width: 112px;
+}
+
+.icon-button {
+    position: absolute;
+    left: 50%;
+    margin-left: -71px;
+    bottom: -72px;
+    transform: rotate(-12deg);
 }

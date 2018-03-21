@@ -19,13 +19,13 @@
 <div class="event">
     <div class="container">
         <div class="row">
-            <div class="offset-lg-1 col-lg-12">
+            <div class="offset-lg-1 col-lg-11">
                 <h2>Our Next Event</h2>
             </div>
         </div>
         <div class="row">
             <div class="offset-lg-1 col-lg-3 order-lg-1 order-1">
-                <dl>
+                <dl class="mb-5">
                     <dt>Time & Date</dt>
                     <dd>Tuesday, April 23rd, 12pm</dd>
                 </dl>
@@ -56,8 +56,8 @@
                     <dt>Speaker</dt>
                     <div class="media">
                         <img class="align-self-center rounded-circle mr-3" src="/wp-content/themes/dddc-theme/images/speaker-frerichs.jpg" alt="Generic placeholder image">
-                        <div class="media-body">
-                            <h4 class="mb-1">Michael Frerichs</h5>
+                        <div class="media-body mt-5">
+                            <h4 class="mb-0">Michael Frerichs</h5>
                             <p>State of Illinois Treasurer</p>
                         </div>
                     </div>
@@ -65,6 +65,9 @@
             </div>
         </div>
     </div>
+    <img class="icon-button" src="/wp-content/themes/dddc-theme/images/icon-button.svg" alt="">
 </div>
+
+
 
 <?php get_footer(); ?>
