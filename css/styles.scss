@@ -42,10 +42,25 @@ $input-btn-padding-x:               1.5rem !default;
 @import "bootstrap-4.0.0/scss/bootstrap.scss";
 @import "fontfaces.scss";
 
+html,
+body {
+  height: 100%;
+}
+
 body {
     font-family: 'Calibre';
     font-weight: 400;
     font-style: normal;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+footer {
+  flex-shrink: 0;
 }
 
 .navbar {
@@ -71,8 +86,10 @@ a.nav-link:hover {
     padding-right: 1.5rem;
 }
 
-.navbar-collapse {
-    margin-top: 2rem;
+@media (max-width: 767px) {
+    .navbar-collapse {
+        margin-top: 2rem;
+    }
 }
 
 footer {
@@ -109,16 +126,18 @@ footer .col-sm-6:last-of-type {
     line-height: 30px;
 }
 
-.flag-follow {
-    position: relative;
-}
+.hero {
+    .flag-follow {
+        position: relative;
+    }
 
-.flag-follow > .flag {
-    position: absolute;
-    left: 50%;
-    margin-left: -12px;
-    top: -4px;
-    transform: rotate(-12deg);
+    .flag-follow > .flag {
+        position: absolute;
+        left: 50%;
+        margin-left: -12px;
+        top: -4px;
+        transform: rotate(-12deg);
+    }
 }
 
 h1 {
@@ -178,8 +197,6 @@ h2 {
         line-height: 52px;
     }
 }
-
-
 
 .primary {
     color: $primary;
@@ -242,6 +259,12 @@ dt {
     margin-bottom: 112px;
 }
 
+@media (max-width: 767px) {
+    .footer-callout {
+        text-align: center;
+    }
+}
+
 .dl-lg {
     dt {
         font-family: 'Tiempos';
@@ -263,4 +286,65 @@ dt {
         font-style: normal;
         margin-bottom: 16px;
     }
+}
+
+.content-page {
+    font-size: 20px;
+    color: #333333;
+    letter-spacing: 0.1px;
+    line-height: 26px;
+    margin-top: 128px;
+    margin-bottom: 112px;
+}
+
+.content-page {
+    p.lead {
+        font-size: 24px;
+        color: #4EA1D3;
+        letter-spacing: 0.1px;
+        line-height: 30px;
+        color: $primary;
+        margin-bottom: 32px;
+    }
+}
+
+.quote-sidebar {
+    background: #F1F9FC;
+    padding: 24px 24px 32px 24px;
+    font-size: 16px;
+    color: #4EA1D3;
+    letter-spacing: 0.1px;
+    line-height: 1.5;
+    position: relative;
+}
+
+.quote-sidebar {
+    .divider {
+        border-bottom: 1px solid #DDDDDD;
+        margin-top: -4px;
+        margin-bottom: 16px;
+    }
+}
+
+.quote-author {
+    font-weight: 600;
+    letter-spacing: .3px;
+    font-size: 16px;
+    color: #555555;
+    text-align: center;
+    line-height: 25px;
+}
+
+.quote-info {
+    font-size: 14px;
+    color: #555555;
+    text-align: center;
+}
+
+.quote-sidebar .flag {
+    position: absolute;
+    left: 50%;
+    margin-left: -18px;
+    bottom: -10px;
+    transform: rotate(-12deg);
 }

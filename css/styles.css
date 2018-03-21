@@ -7894,10 +7894,22 @@ a.text-dark:hover, a.text-dark:focus {
   src: local("Tiempos Headline Black Italic"), local("TiemposHeadline-BlackItalic"), url("../fonts/TiemposHeadline-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/TiemposHeadline-BlackItalic.woff2") format("woff2"), url("../fonts/TiemposHeadline-BlackItalic.woff") format("woff"), url("../fonts/TiemposHeadline-BlackItalic.ttf") format("truetype"), url("../fonts/TiemposHeadline-BlackItalic.svg#TiemposHeadline-BlackItalic") format("svg");
   font-weight: 900;
   font-style: italic; }
+html,
+body {
+  height: 100%; }
+
 body {
   font-family: 'Calibre';
   font-weight: 400;
-  font-style: normal; }
+  font-style: normal;
+  display: flex;
+  flex-direction: column; }
+
+main {
+  flex: 1 0 auto; }
+
+footer {
+  flex-shrink: 0; }
 
 .navbar {
   min-height: 128px;
@@ -7918,9 +7930,9 @@ a.nav-link:hover {
   padding-left: 1.5rem;
   padding-right: 1.5rem; }
 
-.navbar-collapse {
-  margin-top: 2rem; }
-
+@media (max-width: 767px) {
+  .navbar-collapse {
+    margin-top: 2rem; } }
 footer {
   background-color: #333333;
   color: white;
@@ -7948,10 +7960,9 @@ footer .col-sm-6:last-of-type {
   letter-spacing: 0.1px;
   line-height: 30px; }
 
-.flag-follow {
+.hero .flag-follow {
   position: relative; }
-
-.flag-follow > .flag {
+.hero .flag-follow > .flag {
   position: absolute;
   left: 50%;
   margin-left: -12px;
@@ -8052,6 +8063,9 @@ dt {
 .footer-callout {
   margin-bottom: 112px; }
 
+@media (max-width: 767px) {
+  .footer-callout {
+    text-align: center; } }
 .dl-lg dt {
   font-family: 'Tiempos';
   font-weight: 800;
@@ -8069,3 +8083,53 @@ dt {
   font-weight: normal;
   font-style: normal;
   margin-bottom: 16px; }
+
+.content-page {
+  font-size: 20px;
+  color: #333333;
+  letter-spacing: 0.1px;
+  line-height: 26px;
+  margin-top: 128px;
+  margin-bottom: 112px; }
+
+.content-page p.lead {
+  font-size: 24px;
+  color: #4EA1D3;
+  letter-spacing: 0.1px;
+  line-height: 30px;
+  color: #4ea1d3;
+  margin-bottom: 32px; }
+
+.quote-sidebar {
+  background: #F1F9FC;
+  padding: 24px 24px 32px 24px;
+  font-size: 16px;
+  color: #4EA1D3;
+  letter-spacing: 0.1px;
+  line-height: 1.5;
+  position: relative; }
+
+.quote-sidebar .divider {
+  border-bottom: 1px solid #DDDDDD;
+  margin-top: -4px;
+  margin-bottom: 16px; }
+
+.quote-author {
+  font-weight: 600;
+  letter-spacing: .3px;
+  font-size: 16px;
+  color: #555555;
+  text-align: center;
+  line-height: 25px; }
+
+.quote-info {
+  font-size: 14px;
+  color: #555555;
+  text-align: center; }
+
+.quote-sidebar .flag {
+  position: absolute;
+  left: 50%;
+  margin-left: -18px;
+  bottom: -10px;
+  transform: rotate(-12deg); }
