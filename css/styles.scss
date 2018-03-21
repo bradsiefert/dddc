@@ -1,6 +1,9 @@
-/* ---------- Bradstrap Tweaks --------- */
+/* ---------- Bradstrap v4 Global Tweaks --------- */
+// 8pt Grid System
 $grid-gutter-width:     32px !default;
 $container-max-widths:  (sm: 544px, md: 736px, lg: 960px, xl: 1168px) !default;
+
+// 8pt Spacers Extended
 $spacer: 1rem !default;
 $spacers: () !default;
 $spacers: map-merge((
@@ -10,13 +13,27 @@ $spacers: map-merge((
   9: ($spacer * 4),  10: ($spacer * 4.5), 11: ($spacer * 5), 12: ($spacer * 6)
 ), $spacers);
 
-/* ---------- Customizin' Bootstrap 4 Variables --------- */
+// Updating Base Colors (I don't believe in false greys.)
+$white:    #fff !default;
+$gray-100: #f8f8f8 !default; $gray-200: #eeeeee !default; $gray-300: #dddddd !default;
+$gray-400: #cccccc !default; $gray-500: #555555 !default; $gray-600: #666666 !default;
+$gray-700: #555555 !default; $gray-800: #333333 !default; $gray-900: #212121 !default;
+$black:    #000 !default;
+
+/* ---------- Site Variables Updates --------- */
 $white: #fff;
 $blue: #4EA1D3;
 $red: #EC4964;
 $link-color:                        #4EA1D3;
+
+$navbar-light-color:                $gray-800;
+$navbar-light-hover-color:          $link-color;
+$navbar-light-active-color:         $link-color;
+$navbar-light-disabled-color:       rgba($gray-800, .3);
+$navbar-light-toggler-border-color: transparent;
+
 $btn-border-radius:                 4px !default;
-$btn-border-radius-lg:              8px !default;
+$btn-border-radius-lg:              4px !default;
 $btn-border-radius-sm:              2px !default;
 $input-btn-padding-y:               .53rem !default;
 $input-btn-padding-x:               1.5rem !default;
@@ -54,8 +71,32 @@ a.nav-link:hover {
     padding-right: 1.5rem;
 }
 
-@media (max-width: 374px) {
+.navbar-collapse {
+    margin-top: 2rem;
+}
 
+footer {
+    background-color: $gray-800;
+    color: $white;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+footer .row {
+    min-height: 24px;
+}
+
+footer .col-sm-6:last-of-type {
+    text-align: right;
+}
+
+@media (max-width: 576px) {
+    footer,
+    footer .col-sm-6:last-of-type {
+        text-align: center;
+    }
 }
 
 .hero {
@@ -138,6 +179,8 @@ h2 {
     }
 }
 
+
+
 .primary {
     color: $primary;
 }
@@ -169,9 +212,13 @@ dt {
 .btn {
     line-height: 1;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 20px;
     color: #FFFFFF;
     padding: 12px 24px 8px;
+}
+
+.btn-lg {
+    padding: 16px 24px 10px;
 }
 
 .media {
@@ -189,4 +236,31 @@ dt {
     margin-left: -71px;
     bottom: -72px;
     transform: rotate(-12deg);
+}
+
+.footer-callout {
+    margin-bottom: 112px;
+}
+
+.dl-lg {
+    dt {
+        font-family: 'Tiempos';
+        font-weight: 800;
+        font-size: 24px;
+        color: #333333;
+        letter-spacing: 0.1px;
+        line-height: 30px;
+        margin-bottom: 16px;
+    }
+
+    dl,
+    dd {
+        font-size: 24px;
+        color: #333333;
+        letter-spacing: 0.1px;
+        line-height: 30px;
+        font-weight: normal;
+        font-style: normal;
+        margin-bottom: 16px;
+    }
 }

@@ -16,7 +16,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-md">
+        <nav class="navbar navbar-expand-md navbar-light">
             <div class="container nav-wrap">
                 <a href="/" class="navbar-brand">
                     <img src="/wp-content/themes/dddc-theme/images/logo.svg" alt="dddc logo">

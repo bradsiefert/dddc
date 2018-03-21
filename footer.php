@@ -1,3 +1,16 @@
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 align-self-center">
+                2018 &copy; Democrat Developers & Designers
+            </div>
+            <div class="col-sm-6 align-self-center">
+                Made by the folks at <a target="_blank" href="http://earlybird.co">Earlybird</a>.
+            </div>
+        </div>
+    </div>
+</footer>
+
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
