@@ -26,7 +26,7 @@
                 <div class="modal-title" id="ContactModalLabel">Contact Us</div>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">
-                        <img src="<?= get_theme_file_uri("icon-close.svg") ?>" alt="Close">
+                        <img src="<?= get_theme_file_uri("images/icon-close.svg") ?>" alt="Close">
                     </span>
                 </button>
             </div>

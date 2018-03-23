@@ -2,7 +2,7 @@
 
 <div class="container hero">
     <div class="row justify-content-center">
-        <div class="offset-lg-1 col-lg-10 col-xl-8">
+        <div class="col-lg-10 col-xl-8">
             <div class="top-slogan">
                 <h1>
                     <span class="primary">Democrati<span class="flag-follow"><img class="flag" width="32" height="21" src="<?= get_theme_file_uri("images/icon-flag.png") ?>" alt="Flag Icon">c</span></span> Developers & Designers <em>of Chicago</em>
@@ -19,12 +19,12 @@
 <div class="event">
     <div class="container">
         <div class="row">
-            <div class="offset-lg-1 col-lg-11">
+            <div class="col-lg-11">
                 <h2>Our Next Event</h2>
             </div>
         </div>
         <div class="row">
-            <div class="offset-lg-1 col-lg-3 order-lg-1 order-1 col-sm-6">
+            <div class="col-lg-4 order-lg-1 order-1 col-sm-6">
                 <dl class="mb-5">
                     <dt>Time & Date</dt>
                     <dd>Tuesday, April 23rd, 12pm</dd>
