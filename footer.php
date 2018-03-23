@@ -7,7 +7,7 @@
                     2018 &copy; Democratic Developers & Designers
                 </div>
                 <div class="col-sm-6 align-self-center">
-                    Made by the folks at <a target="_blank" href="http://earlybird.co">Earlybird</a>
+                    Website donated by the folks at <a target="_blank" href="http://earlybird.co">Earlybird</a>
                 </div>
             </div>
         </div>
@@ -26,7 +26,7 @@
                 <div class="modal-title" id="ContactModalLabel">Contact Us</div>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">
-                        <img src="/wp-content/themes/dddc-theme/images/icon-close.svg" alt="Close">
+                        <img src="<?= get_theme_file_uri("icon-close.svg") ?>" alt="Close">
                     </span>
                 </button>
             </div>

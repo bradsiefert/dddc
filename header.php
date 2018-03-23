@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
+    <title>Democratic Developers & Designers of Chicago</title>
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" type="text/css" href="<?= get_theme_file_uri("css/styles.css") ?>" />
