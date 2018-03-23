@@ -1,6 +1,6 @@
-/* ---------- Bradstrap v4 Global Tweaks --------- */
-/* ---------- Site Variables Updates --------- */
-/* ---------- Importing --------- */
+/* ---------- Bradstrap v4 Global Updates --------- */
+/* ---------- Site Specific Variables Updates --------- */
+/* ---------- Importin' --------- */
 /*!
  * Bootstrap v4.0.0 (https://getbootstrap.com)
  * Copyright 2011-2018 The Bootstrap Authors
@@ -7894,6 +7894,7 @@ a.text-dark:hover, a.text-dark:focus {
   src: local("Tiempos Headline Black Italic"), local("TiemposHeadline-BlackItalic"), url("../fonts/TiemposHeadline-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/TiemposHeadline-BlackItalic.woff2") format("woff2"), url("../fonts/TiemposHeadline-BlackItalic.woff") format("woff"), url("../fonts/TiemposHeadline-BlackItalic.ttf") format("truetype"), url("../fonts/TiemposHeadline-BlackItalic.svg#TiemposHeadline-BlackItalic") format("svg");
   font-weight: 900;
   font-style: italic; }
+/* ---------- Stylin' --------- */
 html,
 body {
   height: 100%; }
@@ -8004,7 +8005,7 @@ h2 {
 
   .flag-follow > .flag {
     margin-left: -10px;
-    top: -10px; } }
+    top: -5px; } }
 @media (max-width: 375px) {
   .hero {
     padding-top: 64px; }

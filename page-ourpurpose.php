@@ -34,7 +34,7 @@ get_header();
                 <div class="quote-info">
                     Speech at the 2008 Inaguration
                 </div>
-                <img class="flag" src="/wp-content/themes/dddc-theme/images/icon-flag.svg" alt="Flag Icon">
+                <img class="flag" src="<?= get_theme_file_uri("images/icon-flag.svg") ?>" alt="Flag Icon">
             </div>
         </div>
     </div>

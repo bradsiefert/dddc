@@ -5,7 +5,7 @@
         <div class="offset-lg-1 col-lg-10 col-xl-8">
             <div class="top-slogan">
                 <h1>
-                    <span class="primary">Democrati<span class="flag-follow"><img class="flag" src="/wp-content/themes/dddc-theme/images/icon-flag.svg" alt="Flag Icon">c</span></span> Developers & Designers <em>of Chicago</em>
+                    <span class="primary">Democrati<span class="flag-follow"><img class="flag" width="32" height="21" src="<?= get_theme_file_uri("images/icon-flag.png") ?>" alt="Flag Icon">c</span></span> Developers & Designers <em>of Chicago</em>
                 </h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien quam. Sed dapibus est
@@ -55,7 +55,7 @@
                 <dl class="mb-5">
                     <dt>Speaker</dt>
                     <div class="media">
-                        <img class="align-self-center rounded-circle mr-3" src="/wp-content/themes/dddc-theme/images/speaker-frerichs.jpg" alt="Generic placeholder image">
+                        <img class="align-self-center rounded-circle mr-3" src="<?= get_theme_file_uri("images/speaker-frerichs.jpg") ?>" alt="Generic placeholder image">
                         <div class="media-body mt-5">
                             <h4 class="mb-0">Michael Frerichs</h5>
                             <p>State of Illinois Treasurer</p>
@@ -65,7 +65,7 @@
             </div>
         </div>
     </div>
-    <img class="icon-button" src="/wp-content/themes/dddc-theme/images/icon-button.svg" alt="">
+    <img class="icon-button" src="<?= get_theme_file_uri("images/icon-button.svg") ?>" alt="We Need You">
 </div>
 
 <div class="container footer-callout">

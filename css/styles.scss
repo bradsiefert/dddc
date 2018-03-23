@@ -1,4 +1,4 @@
-/* ---------- Bradstrap v4 Global Tweaks --------- */
+/* ---------- Bradstrap v4 Global Updates --------- */
 // 8pt Grid System
 $grid-gutter-width:     32px !default;
 $container-max-widths:  (sm: 544px, md: 736px, lg: 960px, xl: 1168px) !default;
@@ -20,7 +20,7 @@ $gray-400: #cccccc !default; $gray-500: #555555 !default; $gray-600: #666666 !de
 $gray-700: #555555 !default; $gray-800: #333333 !default; $gray-900: #212121 !default;
 $black:    #000 !default;
 
-/* ---------- Site Variables Updates --------- */
+/* ---------- Site Specific Variables Updates --------- */
 $white: #fff;
 $blue: #4EA1D3;
 $red: #EC4964;
@@ -45,10 +45,11 @@ $modal-lg:                          960px !default;
 $modal-md:                          480px !default;
 $modal-sm:                          320px !default;
 
-/* ---------- Importing --------- */
+/* ---------- Importin' --------- */
 @import "bootstrap-4.0.0/scss/bootstrap.scss";
 @import "fontfaces.scss";
 
+/* ---------- Stylin' --------- */
 html,
 body {
   height: 100%;
@@ -190,7 +191,7 @@ h2 {
 
     .flag-follow > .flag {
         margin-left: -10px;
-        top: -10px;
+        top: -5px;
     }
 }
 
